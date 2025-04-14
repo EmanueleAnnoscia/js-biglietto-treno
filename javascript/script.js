@@ -57,7 +57,7 @@ while (true) {
     const userAge = prompt("Inserisci qui la tua età");
     userAgeNumber= parseInt(userAge);
 
-    if (!isNaN(userAgeNumber) && userAgeNumber > 0) {
+    if (!isNaN(userAgeNumber) && userAgeNumber > 0 && userAgeNumber < 150) {
         break;
     }
 
